@@ -1,3 +1,4 @@
+## CS2 SKINS FINDER DISCORD BOT ##
 A bot for checking skin prices and listings of Counter-Strike items, supports all of CS 25000 items
 To use simply type in chat .search ak-47 redline (example)
 For more commands use discord's native slash commands
