@@ -7,7 +7,7 @@ import sqlite3
 from discord import app_commands
 from discord.ext import commands
 
-TOKEN = "(INSERT TOKEN HERE)"
+TOKEN = "MY TOKEN MY PRECIOUS TOKEN"
 intents = discord.Intents.all()
 intents.message_content = True
 
