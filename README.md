@@ -1,14 +1,67 @@
-## CS2 SKINS FINDER DISCORD BOT ##
-A bot for checking skin prices and listings of Counter-Strike items, supports all of CS 25000 items
-<br></br>
-To use simply type in chat .search ak-47 redline (example)
-<br></br>
-For more commands use discord's native slash commands
-<br></br>
-(BOT MAY SOMETIMES BE RATE LIMITED BY STEAM API AND MAY NOT WORK) (WIP)
-<br></br>
-To use the bot you need to invite it to your server using this link:
-<br></br>
-https://discord.com/oauth2/authorize?client_id=842794839601971200&permissions=277025449984&integration_type=1&scope=bot
-<br></br>
-Proof that it works ![alt text](image.png)
+# Personal Portfolio + Blog
+
+This repository represents my personal developer space: a portfolio/blog project plus supporting experiments and automation work.
+
+The goal is simple:
+- Build in public
+- Document what I learn
+- Ship practical tools end-to-end
+
+## What Recruiters Should Know
+
+I use this project to demonstrate how I think and build:
+- I iterate quickly and improve over time.
+- I work across API integration, backend services, and automation.
+- I prioritize clarity, maintainability, and real-world usefulness.
+
+This is an actively evolving project, not a frozen template.
+
+## Current Repository Layout
+
+```text
+.
+|- main/          # Core Python experiments and API-based prototypes
+|- discord_bot/   # Discord integration prototype
+|- image.png      # Legacy screenshot from an earlier feature test
+|- LICENSE
+|- README.md
+```
+
+## Tech Used In This Repo
+
+- Python
+- FastAPI
+- Uvicorn
+- Requests
+- Pydantic
+- SQLite
+
+## Running Locally
+
+1. Create and activate a virtual environment.
+2. Install dependencies:
+   ```bash
+   pip install fastapi uvicorn requests pydantic
+   ```
+3. Run one of the app entry points:
+   ```bash
+   uvicorn main.database:app --reload
+   ```
+
+## Project Direction
+
+Planned improvements:
+- Cleaner portfolio/blog front-end integration
+- Better project organization and dependency management
+- Stronger test coverage and CI workflow
+- More polished documentation around architecture and decisions
+
+## Contact
+
+If you are a recruiter, engineer, or collaborator and want to connect:
+- Open an issue in this repo
+- Or reach out directly through my portfolio contact channels
+
+---
+
+Thanks for stopping by.
